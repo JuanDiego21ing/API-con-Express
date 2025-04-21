@@ -23,7 +23,7 @@ app.get( '/users', (req, res) => {
 app.post( '/users', (req, res) => {
     console.log('peticion POST con body');
     data.push (req.body)
-    res.send('datos guardados correctamente')
+    res.send('datos guardados correctamentee')
 
 })
 
